@@ -4,5 +4,6 @@ public enum IndividualPairStatus
 {
     None,
     OneSided,
-    Bidirectional
+    Bidirectional,
+    PairRequested
 }
