@@ -63,6 +63,7 @@ public interface IServerHub
     Task GroupUnbanUser(GroupPairDto groupPair);
     Task<int> GroupPrune(GroupDto group, int days, bool execute);
 
+    Task UserAddPair(UserDto user);
     Task UserAddPair(UserDto user, bool? pairingNotice = false);
     Task UserDelete();
     Task<List<OnlineUserIdentDto>> UserGetOnlinePairs(CensusDataDto? censusDataDto);
